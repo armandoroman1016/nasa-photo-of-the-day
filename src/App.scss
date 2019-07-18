@@ -7,12 +7,13 @@
     .ui.clearing.segment{
         background: #363636;
         height: 80px;
-        padding:15px 60px 0 50px;
+        padding:10px 60px 0 50px;
         margin:0 ;
         h2{
             color:#E8175D;
             font-family: 'Markazi Text','Russo One', 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
-            font-size:32px;
+            font-size:42px;
+            text-shadow:.5px .5px 1px #A8A7A7;
         }
     }
     .ui.celled.grid{
@@ -41,9 +42,11 @@
                     h1{
                         font-size:50px;
                         text-decoration-line: underline;
+                        text-shadow:.2px .2px .5px #E8175D;
                     }
                     p{
                         font-size:22px;
+                        font-weight: 700;
                         line-height: 2;
                     }
                 }
@@ -68,7 +71,7 @@
         footer{
             width:100px;
             color: #E8175D;
-            font-size:18px;
+            font-size:20px;
             padding: 20px 0;
             margin: 0 auto;
         }

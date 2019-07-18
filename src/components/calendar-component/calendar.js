@@ -42,7 +42,7 @@ import 'semantic-ui-css/semantic.min.css'
             let finalDate = tempDate.join('-')
             extractedDate += finalDate
             
-        }
+          }
         }
         //setting api date
         setApiDate(extractedDate)

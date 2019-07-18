@@ -48,7 +48,7 @@ function App() {
         const currentVersion = response.data.service_version
         setFooterText(currentVersion)
           })
-      }, [apiDate])
+      }, [apiDate, mediaUrl])
 
       
   return (
