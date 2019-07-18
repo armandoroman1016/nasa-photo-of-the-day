@@ -17,7 +17,7 @@ const BodyContentCelled = ({title, text, apiDate, setApiDate, mediaUrl, mediaTyp
     </Grid.Row>
 
     <Grid.Row>
-      <Grid.Column width={12}>
+      <Grid.Column width={16}>
         <Media mediaUrl={mediaUrl} mediaType={mediaType}/>
       </Grid.Column>
     </Grid.Row>
