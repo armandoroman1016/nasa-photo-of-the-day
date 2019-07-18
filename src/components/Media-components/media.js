@@ -7,7 +7,7 @@ function Media({mediaUrl, mediaType}){
             {mediaType === 'video' ? (
                 <Iframe src={mediaUrl} width='100%' height='700px' allowFullScreen/>
             ) : (
-                <img src = {mediaUrl} key ={mediaUrl}/>
+                <img src = {mediaUrl} key ={mediaUrl} alt ='A cool view of space'/>
             )}
         </div>
     )
