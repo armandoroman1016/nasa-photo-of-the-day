@@ -92,8 +92,10 @@ function App() {
             
           }
         }
+
         //setting api date
         setApiDate(extractedDate)
+        
       }}/>
       <TextContent title={title} text={text}/>
       <Media mediaUrl={mediaUrl} mediaType={mediaType}/>
