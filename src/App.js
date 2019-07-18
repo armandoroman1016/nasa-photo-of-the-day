@@ -54,7 +54,10 @@ function App() {
   return (
     <div className="App">
       <CreateHeader date={date}/>
-      <BodyContentCelled title={title} text={text} setApiDate={setApiDate} apiDate={apiDate} mediaUrl={mediaUrl} mediaType={mediaType}/>
+      <BodyContentCelled 
+        title={title} text={text} 
+        setApiDate={setApiDate} apiDate={apiDate} 
+        mediaUrl={mediaUrl} mediaType={mediaType}/>
       <Footer footerText={footerText}/>
     </div>
   );
