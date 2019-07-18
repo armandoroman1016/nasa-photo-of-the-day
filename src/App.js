@@ -1,11 +1,10 @@
 import React, { useEffect, useState } from 'react'
 import axios from 'axios'
 import "./App.scss";
-import Header from './components/header-components/header'
-import TextContent from "./components/text-components/text-content";
-import Media from './components/media-components/media'
+import CreateHeader from './components/header-components/header'
 import Footer from './components/footer-components/footer'
-import CreateCalendar from './components/calendar-component/calendar'
+import BodyContentCelled from './components/content-grid-component/content-grid'
+
 
 function App() {
   
@@ -54,10 +53,8 @@ function App() {
       
   return (
     <div className="App">
-      <Header date={date}/>
-      <TextContent title={title} text={text}/>
-      <CreateCalendar setApiDate={setApiDate} apiDate={apiDate}/>
-      <Media mediaUrl={mediaUrl} mediaType={mediaType}/>
+      <CreateHeader date={date}/>
+      <BodyContentCelled title={title} text={text} setApiDate={setApiDate} apiDate={apiDate} mediaUrl={mediaUrl} mediaType={mediaType}/>
       <Footer footerText={footerText}/>
     </div>
   );

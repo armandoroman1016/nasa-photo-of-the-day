@@ -5,7 +5,7 @@ function Media({mediaUrl, mediaType}){
     return(
         <div className = 'media-container'> 
             {mediaType === 'video' ? (
-                <Iframe src={mediaUrl} width='100%' height='700px' allowFullScreen/>
+                <Iframe src={mediaUrl} width='700px' height='500px' allowFullScreen/>
             ) : (
                 <img src = {mediaUrl} key ={mediaUrl} alt ='A cool view of space'/>
             )}
